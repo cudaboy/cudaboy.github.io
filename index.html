@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="전운열 취업용 포트폴리오 — 데이터 엔지니어링, AI/RAG, 통계 분석, 연구 데이터 프로젝트" />
+  <meta name="author" content="전운열" />
+  <meta property="og:title" content="전운열 | Data & AI Portfolio" />
+  <meta property="og:description" content="통계 기반 데이터 분석, AI/RAG 시스템, 연구 데이터 파이프라인 포트폴리오" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cudaboy.github.io/" />
+  <title>전운열 | Data & AI Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 이동</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="주요 메뉴">
+      <a class="brand" href="#top" aria-label="홈으로 이동"><span class="brand-mark">UY</span><span>전운열</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Data Engineering · AI/RAG · Statistical Research</p>
+          <h1>데이터의 신뢰도를 먼저 설계하는<br />AI·데이터 엔지니어 지망생 전운열입니다.</h1>
+          <p class="hero-lead">통계학 기반의 분석 역량을 바탕으로 데이터 파이프라인 구축, 품질 점검, 시계열 이상 탐지, 근거 기반 AI 검색·생성 시스템 설계까지 연결합니다.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">대표 프로젝트 보기</a>
+            <a class="btn ghost" href="https://github.com/cudaboy" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+          <dl class="quick-facts" aria-label="핵심 요약">
+            <div><dt>Focus</dt><dd>Reliable Data / AI Systems</dd></div>
+            <div><dt>Strength</dt><dd>통계 기반 검증·재현성</dd></div>
+            <div><dt>Domain</dt><dd>금융·공공·연구 데이터</dd></div>
+          </dl>
+        </div>
+        <aside class="profile-card" aria-label="프로필 요약">
+          <div class="avatar">UY</div>
+          <h2>Jeon Un-yeol</h2>
+          <p>데이터 정확도, 지표 기반 평가, 반복 가능한 운영 프로세스를 중시합니다.</p>
+          <ul>
+            <li>Python · SQL · R</li>
+            <li>FastAPI · Docker · PostgreSQL</li>
+            <li>LangChain · LangGraph · ChromaDB</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container split">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2>업무 문제를 신뢰 가능한 데이터 흐름으로 바꾸는 데 집중합니다.</h2>
+        </div>
+        <div class="body-text">
+          <p>AI 시스템을 단순한 결과 생성기가 아니라, 업무 검토 속도와 판단 신뢰도를 높이는 도구로 설계하려 합니다. 데이터 수집부터 정제, 저장, 검색, 평가 지표 관리까지 이어지는 흐름에서 결측·이상값·근거 연결을 점검합니다.</p>
+          <p>금융 시계열, 공공 문서, 연구 데이터처럼 도메인 제약이 분명한 데이터를 다뤄 왔으며, 통계 모델링과 엔지니어링 구현을 함께 고려하는 방식으로 프로젝트를 정리해 왔습니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section muted">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-kicker">Representative Projects</p>
+          <h2>대표 프로젝트</h2>
+          <p>취업 포트폴리오에서 바로 설명할 수 있도록 문제, 역할, 기술, 산출물을 중심으로 정리했습니다.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="card-meta"><span>2025.04–2025.05</span><span>개인 프로젝트</span></div>
+            <h3>BioLinker — 의학 논문 RAG 분석 플랫폼</h3>
+            <p>PubMed 논문 메타데이터와 초록을 수집·정규화하고, ChromaDB 벡터 검색과 LangGraph 라우팅을 결합해 근거 기반 응답 흐름을 설계했습니다.</p>
+            <ul>
+              <li>PostgreSQL 저장 구조와 FastAPI 백엔드 API 구성</li>
+              <li>질문 의도별 검색·요약 분기와 근거 연결 구조 설계</li>
+              <li>운영 단계 재현성을 위한 로그 구조 정리</li>
+            </ul>
+            <div class="tags"><span>Python</span><span>FastAPI</span><span>LangGraph</span><span>ChromaDB</span><span>Docker</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="card-meta"><span>2023.03–2024.02</span><span>석사논문</span></div>
+            <h3>KRX 시장경보제도 실효성 분석</h3>
+            <p>KRX 투자주의종목 18,384건의 일별 가격 데이터를 바탕으로 시장 위험성 변화를 정량화하고 구조적 변곡점을 분석했습니다.</p>
+            <ul><li>NCSKEW, DUVOL 기반 변동성 추적</li><li>Joinpoint·분위수 회귀 기반 위험 패턴 해석</li></ul>
+            <div class="tags"><span>Python</span><span>SQL</span><span>Time Series</span><span>Statistics</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="card-meta"><span>2026.04–2026.05</span><span>공모전</span></div>
+            <h3>공정위 AI·데이터 활용 공모전 RAG 파이프라인</h3>
+            <p>의결서 질문 특성에 맞춰 dense, sparse, multi-vector 검색을 결합하고 RRF·reranker로 상위 청크 정합성을 높이는 구조를 설계했습니다.</p>
+            <ul><li>Recall@5, MRR, BERTScore, F1 기준 개선 루프 운영</li><li>검색 단계와 생성 단계 지표를 분리해 병목 확인</li></ul>
+            <div class="tags"><span>LangChain</span><span>BGE-M3</span><span>RAG</span><span>Evaluation</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="card-meta"><span>2026.03</span><span>부트캠프 팀 프로젝트</span></div>
+            <h3>AI Analyst App</h3>
+            <p>CFO, Analyst, Trader, Fund Manager 역할을 분리한 멀티에이전트 분석 흐름과 분석 히스토리 저장 구조를 구현했습니다.</p>
+            <ul><li>FastAPI·Streamlit 기반 서비스 구조</li><li>Docker Compose 기반 재현 가능한 실행 환경</li></ul>
+            <div class="tags"><span>FastAPI</span><span>Streamlit</span><span>LangGraph</span><span>MLflow</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="card-meta"><span>2026.05–진행 중</span><span>팀 프로젝트</span></div>
+            <h3>Honda R&D EMS — 스마트 건물 에너지 모니터링</h3>
+            <p>건물 계량기 시계열 데이터의 gap·coverage 기준을 점검하고 예측 모델과 이상탐지 실험 구조를 설계했습니다.</p>
+            <ul><li>특성 엔지니어링 및 이상 신호 탐지 체계 정리</li><li>MLflow 기반 모델 실험 추적</li></ul>
+            <div class="tags"><span>TimescaleDB</span><span>PyTorch</span><span>LightGBM</span><span>MLflow</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <div class="container">
+        <div class="section-head narrow">
+          <p class="section-kicker">Research & Academic Work</p>
+          <h2>연구·학내외 데이터 프로젝트</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <time>2025</time>
+            <h3>Development of standard job classification codes for building a job-exposure matrix for police officers</h3>
+            <p>Annals of Occupational and Environmental Medicine, 2025;37:e10. 경찰 직무노출매트릭스 구축을 위한 표준 직무분류 코드 개발 연구에 참여했습니다.</p>
+            <a href="https://doi.org/10.35371/aoem.2025.37.e10" target="_blank" rel="noreferrer">DOI: 10.35371/aoem.2025.37.e10</a>
+          </article>
+          <article>
+            <time>2025.02–2025.05</time>
+            <h3>차량·기계분야 혈액암 관련 현장조사 연구용역</h3>
+            <p>설문 데이터 수집, 행정자료 병합, 누적노출량 산출 흐름을 설계하고 R Shiny 기반 설문 인프라와 통계 분석을 수행했습니다.</p>
+          </article>
+          <article>
+            <time>2024.05–2024.10</time>
+            <h3>시간에 따른 발암물질 노출수준 변화 평가</h3>
+            <p>2002~2023 작업환경 측정자료를 바탕으로 카드뮴, 니켈, 6가크롬, 용접흄의 노출 추세를 정량화했습니다.</p>
+          </article>
+          <article>
+            <time>2024.01–2025.06</time>
+            <h3>코호트 기반 신경계 질환 환경유해인자 분석 DB 구축</h3>
+            <p>실내·실외 환경 노출 데이터와 시간활동양상을 통합해 환경유해인자 예측모형 개발을 위한 보조 분석 데이터셋을 정리했습니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section muted">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-kicker">Skills</p>
+          <h2>기술 스택</h2>
+        </div>
+        <div class="skill-columns">
+          <div class="skill-box"><h3>Data / Backend</h3><p>Python, SQL, PostgreSQL, TimescaleDB, FastAPI, Streamlit, Docker, Linux, Git</p></div>
+          <div class="skill-box"><h3>AI / RAG</h3><p>LangChain, LangGraph, ChromaDB, BGE-M3, reranking, RRF, retrieval evaluation, prompt workflow design</p></div>
+          <div class="skill-box"><h3>Statistics / Research</h3><p>R, pandas, statsmodels, 시계열 분석, Joinpoint Regression, 분위수 회귀, 데이터 품질 점검</p></div>
+          <div class="skill-box"><h3>Operation Mindset</h3><p>재현 가능한 로그, 평가 지표 분리, 결측·이상값 검토, 근거 기반 문서화, 실험 추적</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <p class="section-kicker">Contact</p>
+        <h2>프로젝트와 경험은 계속 업데이트합니다.</h2>
+        <p>취업용 포트폴리오 홈페이지입니다. 자세한 코드와 활동 이력은 GitHub에서 확인할 수 있습니다.</p>
+        <div class="contact-actions">
+          <a class="btn primary" href="https://github.com/cudaboy" target="_blank" rel="noreferrer">GitHub 바로가기</a>
+          <a class="btn ghost light" href="mailto:cudaboy@users.noreply.github.com">Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 Jeon Un-yeol</span>
+      <span>Built for GitHub Pages</span>
+    </div>
+  </footer>
+</body>
+</html>
