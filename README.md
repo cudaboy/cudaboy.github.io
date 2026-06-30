@@ -1,10 +1,11 @@
 # cudaboy.github.io
 
-전운열 취업용 포트폴리오 홈페이지입니다.
+English career portfolio homepage for Jeon Un-yeol.
 
-- 배포 주소: https://cudaboy.github.io/
-- 형식: GitHub Pages 정적 HTML/CSS
-- 주요 섹션: About, Representative Projects, Research, Skills, Contact
+- Live site: https://cudaboy.github.io/
+- Format: static HTML/CSS on GitHub Pages
+- Main sections: About, Selected Projects, Research, Skills, Contact
+- Project detail pages: `/projects/<project-slug>/`
 
 ## Local preview
 
@@ -12,4 +13,4 @@
 python3 -m http.server 8000
 ```
 
-브라우저에서 `http://localhost:8000`으로 확인합니다.
+Open `http://localhost:8000` in a browser.
